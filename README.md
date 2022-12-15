@@ -1,8 +1,7 @@
 # python-package-template
+A template repository for python packages
 
 ![CI status](https://github.com/Silvan-K/python-package-template/actions/workflows/ci.yaml/badge.svg)
-
-A template repository for python packages
 
 ## Installation
 
@@ -12,16 +11,18 @@ To install the tools, please checkout this repository and install the module via
 git clone git@github.com:Silvan-K/python-package-template.git
 cd python-package-template
 pip install .
-
 ```
 
-To install the module in editable mode, please use 
+## Tests
+
+To run tests (located in the [tests](https://github.com/Silvan-K/python-package-template/tree/main/tests) directory) please run
 
 ```
-pip install -e
-
+pytest
 ```
 
-The editable mode installs the package via symlinks to the source code, which is
-convenient if you modify the code frequently and want to avoid running the
-installation command after every edit.
+from within the repository's root directory.
+
+## CI
+
+The tests are configured to run as a [Github Action](https://github.com/features/actions) on every push to the repository, as configured in [ci.yaml](https://github.com/Silvan-K/python-package-template/blob/main/.github/workflows/ci.yaml)

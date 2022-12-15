@@ -1,3 +1,5 @@
+![CI status](https://github.com/github/docs/actions/workflows/ci.yaml/badge.svg)
+
 # python-package-template
 
 A template repository for python packages

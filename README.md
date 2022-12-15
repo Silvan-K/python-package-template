@@ -1,5 +1,5 @@
 # python-package-template
-A template repository for python packages
+A template repository for python packages. Lowering the barrier to creating properly packaged python libraries including tests and CI.
 
 ![CI status](https://github.com/Silvan-K/python-package-template/actions/workflows/ci.yaml/badge.svg)
 

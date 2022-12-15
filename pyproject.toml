@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "examplepackage"
+description = "A template for creating python packages"
+readme = "README.md"
+dependencies = [""]
+dynamic = ["version"]
+
+# Executables are created automatically from entrypoint functions using the
+# syntax below. In this example, the function 'examplepackage.main_function' is
+# used to create an executable that can be called from the command line as
+# "example-program --help" after the package has been installed
+[project.scripts]
+example-program = "examplepackage:main_function"

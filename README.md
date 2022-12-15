@@ -1,8 +1,6 @@
-![CI status](https://github.com/Silvan-K/python-package-template/actions/workflows/ci.yaml/badge.svg)
-
-![CI status](https://github.com/github/docs/actions/workflows/ci.yaml/badge.svg)
-
 # python-package-template
+
+![CI status](https://github.com/Silvan-K/python-package-template/actions/workflows/ci.yaml/badge.svg)
 
 A template repository for python packages
 

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "examplepackage"
 description = "A template for creating python packages"
 readme = "README.md"
-dependencies = [""]
+dependencies = ["pytest"]
 dynamic = ["version"]
 
 # Executables are created automatically from entrypoint functions using the

@@ -5,7 +5,7 @@ A template repository for python packages. Lowering the barrier to creating prop
 
 ## Installation
 
-To install the tools, please checkout this repository and install the module via pip:
+To install this package, please checkout the repository and install via pip:
 
 ```
 git clone git@github.com:Silvan-K/python-package-template.git
